@@ -4,18 +4,18 @@
       "name": "Simplon ERN Narbonne",
       "items": [
         {"id": "1", "firstName": "XXXXX"},
-        {"id": "2", "firstName": "XXXXX"},
-        {"id": "3", "firstName": "XXXXX"},
-        {"id": "4", "firstName": "XXXXX"}
+        {"id": "2", "firstName": "YYYYY"},
+        {"id": "3", "firstName": "ZZZZZ"},
+        {"id": "4", "firstName": "AAAAA"}
       ]
     },
     {
-      "name": "Simplon ERN Narbonne",
+      "name": "Simplon ERN Auch",
       "items": [
-        {"id": "1", "firstName": "XXXXX"},
-        {"id": "2", "firstName": "XXXXX"},
-        {"id": "3", "firstName": "XXXXX"},
-        {"id": "4", "firstName": "XXXXX"}
+        {"id": "1", "firstName": "UUUUU"},
+        {"id": "2", "firstName": "IIIII"},
+        {"id": "3", "firstName": "EEEEE"},
+        {"id": "4", "firstName": "OOOOO"}
       ]
     }
   ]

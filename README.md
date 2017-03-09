@@ -47,7 +47,7 @@ curl https://api.github.com/users/Boyquotes
 
 Meetup.com, Twitter, Facebook  
 
-- AJAX en utilisant Jquery( .ajax(), .get(), .post()...) ( vous pouvez aussi le faire en JS natif XMLHttpRequest...)  
+- AJAX en utilisant Jquery( .ajax(), .post(), .getJson()...) ( vous pouvez aussi le faire en JS natif XMLHttpRequest...)  
 AJAX est l'acronyme : d'**A**synchronous **J**avaScript **A**nd **X**ML  
 
 Lire uniquement cette page, la suivante est trop compliqué pour vous:  
