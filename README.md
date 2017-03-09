@@ -14,7 +14,7 @@ https://github.com/Simplon-Narbonne/exoJS
 - Les requetes HTTP lisez ceci :  
 http://www.blog-nouvelles-technologies.fr/5844/quest-ce-que-le-protocole-http-analyse-et-explications/   
 
-Les requetes que nous faisons en général(mise à part les formulaires) se font donc GET par défaut(possibilité d'envoyer des données dans l'URL quand même, exemple: http://libre-shop.com/?fond=produit&id_produit=52&id_rubrique=27 , les valeurs de fond, id_produit et id_rubrique peuvent être récupérer facilement dans le code de la page )  
+Les requetes que nous faisons en général(mise à part les formulaires) se font donc GET par défaut(possibilité d'envoyer des données dans l'URL quand même, exemple: http://libre-shop.com/?fond=produit&id_produit=52&id_rubrique=27 , les valeurs de fond, id_produit et id_rubrique peuvent être récupérées facilement dans le code de la page )  
 
 On utilise le verbe http POST pour envoyer des données avec un formulaire par exemple , elles seront contenu et transmise à l'intérieur des entetes HTTP, donc invisible pour l'internaute, mais bien visible dans les outils pour développeu.r.se
 
