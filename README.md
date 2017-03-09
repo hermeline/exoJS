@@ -18,6 +18,16 @@ Les requetes que nous faisons en général(mise à part les formulaires) se font
 
 On utilise le verbe http POST pour envoyer des données avec un formulaire par exemple , elles seront contenu et transmise à l'intérieur des entetes HTTP, donc invisible pour l'internaute, mais bien visible dans les outils pour développeu.r.se
 
+- AJAX en utilisant Jquery( .ajax(), .post(), .getJson()...) ( vous pouvez aussi le faire en JS natif XMLHttpRequest...)  
+AJAX est l'acronyme : d'**A**synchronous **J**avaScript **A**nd **X**ML  
+
+Lire uniquement cette page, la suivante est trop compliqué pour vous:  
+https://openclassrooms.com/courses/dynamisez-vos-sites-web-avec-javascript/l-ajax-qu-est-ce-que-c-est  
+
+Article pas mal fait du tout:  
+https://www.alsacreations.com/article/lire/1161-json-ajax-jquery-jsonp-getjson.html  
+En english : https://www.sitepoint.com/ajaxjquery-getjson-simple-example/  
+
 - JSON ( format de données ):  
 **J**ava**S**cript **O**bject **N**otation  
 Un document JSON ne comprend que deux types d'éléments structurels :  
@@ -46,13 +56,3 @@ En ligne de commande
 curl https://api.github.com/users/Boyquotes  
 
 Meetup.com, Twitter, Facebook  
-
-- AJAX en utilisant Jquery( .ajax(), .post(), .getJson()...) ( vous pouvez aussi le faire en JS natif XMLHttpRequest...)  
-AJAX est l'acronyme : d'**A**synchronous **J**avaScript **A**nd **X**ML  
-
-Lire uniquement cette page, la suivante est trop compliqué pour vous:  
-https://openclassrooms.com/courses/dynamisez-vos-sites-web-avec-javascript/l-ajax-qu-est-ce-que-c-est  
-
-Article pas mal fait du tout:  
-https://www.alsacreations.com/article/lire/1161-json-ajax-jquery-jsonp-getjson.html  
-En english : https://www.sitepoint.com/ajaxjquery-getjson-simple-example/  
