@@ -18,16 +18,16 @@ Les requetes que nous faisons en général(mise à part les formulaires) se font
 
 On utilise le verbe http POST pour envoyer des données avec un formulaire par exemple , elles seront contenu et transmise à l'intérieur des entetes HTTP, donc invisible pour l'internaute, mais bien visible dans les outils pour développeu.r.se
 
-- AJAX en utilisant Jquery( .ajax(), .get(), .post()...) ( vous pouvez aussi le faire en JS natif...)
-AJAX est l'acronyme : d'**A**synchronous **J**avaScript **A**nd **X**ML 
+- AJAX en utilisant Jquery( .ajax(), .get(), .post()...) ( vous pouvez aussi le faire en JS natif...)  
+AJAX est l'acronyme : d'**A**synchronous **J**avaScript **A**nd **X**ML  
 
 - JSON ( format de données ):  
-JavaScript Object Notation  
+**J**ava**S**cript **O**bject **N**otation  
 Un document JSON ne comprend que deux types d'éléments structurels :  
     - Des ensembles de paires nom / valeur ;  
     - Des listes ordonnées de valeurs.  
 
-Regarder sur wikipedia la différence entre les 2 autres formats utilisés aussi dans des web services XML( SOAP) ou YAML plutot pour des fichiers de configuration (comme les .ini sous windows pour ceux qui commencent )  
+Regarder sur wikipedia la différence entre les JSON et 2 autres formats utilisés aussi dans des web services XML( SOAP) ou YAML plutot utilisé pour des fichiers de configuration  
 https://fr.wikipedia.org/wiki/JavaScript_Object_Notation
 
 Réaliser un objet JSON contenant vos pseudo's Github  
@@ -51,5 +51,3 @@ En ligne de commande
 curl https://api.github.com/users/Boyquotes  
 
 Meetup.com, Twitter, Facebook  
-
-http://192.168.1.104/
