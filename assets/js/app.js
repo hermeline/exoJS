@@ -8,7 +8,7 @@
 
   // Bouclez sur le tableau que vous avez déclaré ci-dessus
 
-  // Mettre un switch pour qu'au moment où la boucle se trouve sur votre pseudo cela ajoute "Affiche " devant votre pseudo dans la console et sur l'écran et par defaut seulement le pseudo des autres
+  // Mettre un switch pour qu'au moment où la boucle se trouve sur votre pseudo cela ajoute "Affiche " devant votre pseudo dans la console et sur l'écran et par defaut seulement le pseudo pour les autres
 
 // FIN REVISIONS
 

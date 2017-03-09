@@ -27,17 +27,17 @@ Un document JSON ne comprend que deux types d'éléments structurels :
 Regarder sur wikipedia la différence entre les JSON et 2 autres formats utilisés aussi dans des web services XML( SOAP) ou YAML plutot utilisé pour des fichiers de configuration  
 https://fr.wikipedia.org/wiki/JavaScript_Object_Notation
 
-Utilisez le fichier data/school.json et faites un script JS qui affiche le nom de l'école dans la console chaque pseudo  
+Utilisez le fichier data/school.json et faites un script JS dans assets/js/list.js qui affiche dans l'indext le nom de l'école suivi de chaque pseudo dans la console  
 
 - API en REST (JSON) :
 Les API permettent via des méthodes disponibles publiquement ou privée mais alors via une authenfication(TOKEN, clef API...) de récupérer ou ajouter des données depuis un site(souvent ne nous appartenant pas) via de simples requetes, on parle de verbe HTTP ( GET->récupérer, POST->envoyer, UPDATE->mettre à jour une donnée existante, DELETE->effacer une donnée...)  
-
 
 Exemple d'API:  
 Slack :  
 https://api.slack.com/methods  
 
 Github :  
+https://developer.github.com/v3/  
 https://api.github.com/users/Boyquotes  
 ou  
 pour voir les depots :  
@@ -46,3 +46,13 @@ En ligne de commande
 curl https://api.github.com/users/Boyquotes  
 
 Meetup.com, Twitter, Facebook  
+
+- AJAX en utilisant Jquery( .ajax(), .get(), .post()...) ( vous pouvez aussi le faire en JS natif XMLHttpRequest...)  
+AJAX est l'acronyme : d'**A**synchronous **J**avaScript **A**nd **X**ML  
+
+Lire uniquement cette page, la suivante est trop compliqué pour vous:  
+https://openclassrooms.com/courses/dynamisez-vos-sites-web-avec-javascript/l-ajax-qu-est-ce-que-c-est  
+
+Article pas mal fait du tout:  
+https://www.alsacreations.com/article/lire/1161-json-ajax-jquery-jsonp-getjson.html  
+En english : https://www.sitepoint.com/ajaxjquery-getjson-simple-example/  
