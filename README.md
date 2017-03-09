@@ -18,21 +18,16 @@ Les requetes que nous faisons en général(mise à part les formulaires) se font
 
 On utilise le verbe http POST pour envoyer des données avec un formulaire par exemple , elles seront contenu et transmise à l'intérieur des entetes HTTP, donc invisible pour l'internaute, mais bien visible dans les outils pour développeu.r.se
 
-- AJAX en utilisant Jquery( .ajax(), .get(), .post()...) ( vous pouvez aussi le faire en JS natif...)  
-AJAX est l'acronyme : d'**A**synchronous **J**avaScript **A**nd **X**ML  
-
 - JSON ( format de données ):  
 **J**ava**S**cript **O**bject **N**otation  
 Un document JSON ne comprend que deux types d'éléments structurels :  
-    - Des ensembles de paires nom / valeur ;  
+    - Des ensembles de paires nom : valeur
     - Des listes ordonnées de valeurs.  
 
 Regarder sur wikipedia la différence entre les JSON et 2 autres formats utilisés aussi dans des web services XML( SOAP) ou YAML plutot utilisé pour des fichiers de configuration  
 https://fr.wikipedia.org/wiki/JavaScript_Object_Notation
 
-Réaliser un objet JSON contenant vos pseudo's Github  
-
-Et faire un script JS qui affiche le nom de l'école dans la console chaque pseudo  
+Utilisez le fichier data/school.json et faites un script JS qui affiche le nom de l'école dans la console chaque pseudo  
 
 - API en REST (JSON) :
 Les API permettent via des méthodes disponibles publiquement ou privée mais alors via une authenfication(TOKEN, clef API...) de récupérer ou ajouter des données depuis un site(souvent ne nous appartenant pas) via de simples requetes, on parle de verbe HTTP ( GET->récupérer, POST->envoyer, UPDATE->mettre à jour une donnée existante, DELETE->effacer une donnée...)  
