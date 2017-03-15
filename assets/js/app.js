@@ -13,7 +13,12 @@
 //
 // COURS AJAX
 // Faire une requete en ajax pour charger de façon asynchrone le html du fichier contenu.html
+// $.ajax({
+//   url:"../../contenu.html"
+// });
 
+
+// $('#resultatAjax').load('../../contenu.html');
 // COURS AJAX vers des API
   // AJAX Jquery .ajax() ou .getJSON()
   // Faites une requete vers l'API REST de Github pour récupérer les informations de votre compte et afficher le nombre de repositories que vous avez valeur de public_repos
